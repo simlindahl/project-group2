@@ -1,59 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="SQLHandler.SQL" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="7.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SQL.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SQLHandler.Customer">
-    <Position X="1.5" Y="3.5" Width="1.5" />
+  <Class Name="SQLHandler.Customer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAgAEAAAAACAAAQCgAAAAA=</HashCode>
       <FileName>Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SQLHandler.Admin">
-    <Position X="4.75" Y="3.5" Width="1.5" />
+  <Class Name="SQLHandler.Admin" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Admin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SQLHandler.Product">
-    <Position X="9" Y="1.25" Width="1.5" />
+    <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SQLHandler.Pen">
-    <Position X="8.5" Y="3.25" Width="1.5" />
+    <Position X="2.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SQLHandler.Clip">
-    <Position X="10" Y="5" Width="1.5" />
+    <Position X="5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Clip.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SQLHandler.Paper">
-    <Position X="6.75" Y="4.75" Width="1.5" />
+    <Position X="0.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Paper.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SQLHandler.User">
-    <Position X="3" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAAAACAAAAAAAAEAAAAACAAAACgAAAAA=</HashCode>
-      <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
