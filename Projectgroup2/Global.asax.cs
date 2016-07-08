@@ -14,6 +14,8 @@ namespace Projectgroup2
         protected void Application_Start(object sender, EventArgs e)
         {
            // Console.WriteLine("Man bör ej använda console i en webbapplikation");
+           //DATABAS: username: DBAdmin password: this!s4password
+            
         }
     }
 }
