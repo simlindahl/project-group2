@@ -13,9 +13,10 @@ namespace Projectgroup2
         //Tim
         protected void Application_Start(object sender, EventArgs e)
         {
-           // Console.WriteLine("Man bör ej använda console i en webbapplikation");
-           //DATABAS: username: DBAdmin password: this!s4password
-            
+            // Console.WriteLine("Man bör ej använda console i en webbapplikation");
+            //DATABAS: username: DBAdmin password: this!s4password
+            //kabdatabase.database.windows.net
+
         }
     }
 }
