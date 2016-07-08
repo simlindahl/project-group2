@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SQLHandler
 {
-    public class Admin
+    public class Admin : User
     {
     }
 }
