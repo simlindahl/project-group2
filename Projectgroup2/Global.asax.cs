@@ -16,6 +16,7 @@ namespace Projectgroup2
             // Console.WriteLine("Man bör ej använda console i en webbapplikation");
             //DATABAS: username: DBAdmin password: this!s4password
             //kabdatabase.database.windows.net
+            //Nu är vi klara med projektet. Bra jobbat :)
 
         }
     }
