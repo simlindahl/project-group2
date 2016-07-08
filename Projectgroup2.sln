@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projectgroup2", "Projectgroup2\Projectgroup2.csproj", "{7DB61934-4713-4B95-82E0-744B5F48E61D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLHandler", "SQLHandler\SQLHandler.csproj", "{7624B499-CBBA-4E39-91AB-C52649C5A334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DB61934-4713-4B95-82E0-744B5F48E61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DB61934-4713-4B95-82E0-744B5F48E61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DB61934-4713-4B95-82E0-744B5F48E61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7624B499-CBBA-4E39-91AB-C52649C5A334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7624B499-CBBA-4E39-91AB-C52649C5A334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7624B499-CBBA-4E39-91AB-C52649C5A334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7624B499-CBBA-4E39-91AB-C52649C5A334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
