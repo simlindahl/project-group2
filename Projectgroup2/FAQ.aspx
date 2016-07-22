@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="FAQ" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="FAQ.aspx.cs" Inherits="Projectgroup2.FAQ" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Main" runat="server">
-    <div class="col-sm-12" style="padding: 0px 5% 5% 5%;">
+    <div class="col-sm-12" style="padding: 0px 5% 0% 5%;">
         <h1>FAQ</h1>
 
         <h3>Har ni några schyssta pennor eller?</h3>
