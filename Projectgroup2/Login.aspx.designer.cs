@@ -11,7 +11,7 @@ namespace Projectgroup2
 {
 
 
-    public partial class ContactUs
+    public partial class Login
     {
     }
 }

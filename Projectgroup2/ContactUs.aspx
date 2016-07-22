@@ -1,16 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="Projectgroup2.ContactUs" %>
+﻿<%@ Page Title="Kontakta oss" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="Projectgroup2.ContactUs" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="Main" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
+    <div class="col-sm-12" style="padding: 0px 5% 5% 5%;">
+        <h1>KONTAKTA OSS</h1>
     </div>
-    </form>
-</body>
-</html>
+
+    <%-- Innehåll ska placeras innanför dessa måsvingar --%>
+
+</asp:Content>

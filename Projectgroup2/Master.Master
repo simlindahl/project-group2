@@ -17,9 +17,6 @@
 
     <%-- Fontlänkar --%>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,300,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <style>
@@ -102,8 +99,6 @@
         }
     </style>
 
-    <%-- Behövs ett form här? --%>
-    <%--<form id="form1" runat="server">--%>
     <div class="container-fluid">
 
         <div class="jumbotron">
@@ -116,21 +111,21 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.aspx"><span class="glyphicon glyphicon-home"></span>Hem</a></li>
                     <li class="dropdown">
-                        <a href ="#" data-toggle="dropdown" class="dropdown-toggle">Produkter <b class="caret"></b></a>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Produkter <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Pennor</a></li>
                             <li><a href="#">Papper</a></li>
                             <li><a href="#">Häftapparater</a></li>
                             <li><a href="#">Gem</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">Visa alla</a></li>
+                            <li><a href="Products.aspx">Visa alla</a></li>
                         </ul>
                     </li>
-                 <li><a href="#">Kontakta oss</a></li>
-                 <li><a href="#">FAQ </a></li>
+                    <li><a href="ContactUs.aspx">Kontakta oss</a></li>
+                    <li><a href="FAQ.aspx">FAQ </a></li>
                 </ul>
             </div>
-            
+
             <%-- SÖKRUTA I MENY --%>
             <div class="col-sm-4" style="padding-right: 0px; padding-left: 0px;">
                 <form class="navbar-form" role="search">
@@ -145,43 +140,16 @@
 
             <div class="col-sm-3" style="padding-right: 0px; padding-left: 0px;">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Logga in</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Varukorg</a></li>
+                    <li><a href="Login.aspx"><span class="glyphicon glyphicon-user"></span>Logga in</a></li>
+                    <li><a href="ShoppingCart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Varukorg</a></li>
                 </ul>
             </div>
         </nav>
 
-        <%-- DET SOM KOMMER NEDANFÖR SKA TILL EN SEPARAT PRODUKTSIDA --%>
-
-        <%-- FÖRSLAG PÅ STRUKTUR AV INNEHÅLL --%>
-        <div class="row">
-            <div class="col-sm-8" style="padding: 0px 5% 5% 5%;">
-                <h2>Produkt X</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar mattis ultrices. 
-                    Maecenas nisl nisi, malesuada vel convallis rhoncus, posuere vitae massa. Nam efficitur porttitor accumsan. 
-                    Suspendisse eget libero suscipit, hendrerit felis sit amet, lacinia lorem. Morbi eu libero vulputate diam posuere commodo ut at nibh.
-                     Sed tincidunt pulvinar hendrerit. Duis viverra leo eget enim tincidunt placerat. 
-                    <br />
-                    <br />
-                    Maecenas egestas augue magna, ac tincidunt urna porttitor vitae. Ut iaculis nibh quis sem iaculis, a ultrices sem suscipit. 
-                    Morbi nisl lectus, varius ut pretium nec, auctor at ligula. In faucibus magna vel iaculis ultricies. 
-                    Praesent fringilla urna at gravida tristique. Praesent ullamcorper lacus et est ornare, vel ultrices dui pulvinar. 
-                    Nullam a fringilla dolor.
-                </p>
-
-                <blockquote>
-                    <p class="bg-info">Otroligt bra kvalitet på denna penna, har köpt till hela kontoret nu!</p>
-                    <footer>Ulf Hansson, Kontoret.se</footer>
-                </blockquote>
-
-            </div>
-
-            <div class="col-sm-4" style="padding: 25px 5% 5% 5%;">
-                <img src="https://img.geekbutiken.se/pennor/doctor-who-tardis-silver-penna.jpg" alt="Exklusiv penna">
-            </div>
+        <div>
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
-
 
     </div>
 
@@ -191,10 +159,5 @@
         <p id="copyright">Copyright © 2016 Kontorsprylar AB. All rights reserved.</p>
     </div>
 
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-    </div>
-    <%--</form>--%>
 </body>
 </html>
