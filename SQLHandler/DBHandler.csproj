@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Admin.cs" />
     <Compile Include="Clip.cs" />
+    <Compile Include="ContactInfo.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Paper.cs" />
     <Compile Include="Pen.cs" />
+    <Compile Include="Phone.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="SQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

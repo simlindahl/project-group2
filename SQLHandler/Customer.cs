@@ -7,8 +7,36 @@ namespace SQLHandler
 {
     public class Customer : User
     {
+        public Customer()
+        {
+            throw new System.NotImplementedException();
+        }
 
-        public string deliveryAddress
+        public string Addresses
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public string ShopCart
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public string Phones
         {
             get
             {

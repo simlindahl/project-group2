@@ -7,5 +7,9 @@ namespace SQLHandler
 {
     public class Admin : User
     {
+        public Admin()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

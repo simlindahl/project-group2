@@ -5,14 +5,14 @@ using System.Text;
 
 namespace SQLHandler
 {
-    public abstract class User
+    public class Address : ContactInfo
     {
-        public User()
+        public Address()
         {
             throw new System.NotImplementedException();
         }
 
-        public string EmailAddress
+        public int City
         {
             get
             {
@@ -24,7 +24,7 @@ namespace SQLHandler
             }
         }
 
-        public string FirstName
+        public int Street
         {
             get
             {
@@ -36,7 +36,7 @@ namespace SQLHandler
             }
         }
 
-        public bool IsAdmin
+        public int Type
         {
             get
             {
@@ -48,31 +48,7 @@ namespace SQLHandler
             }
         }
 
-        public string LastName
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string Password
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public int UserID
+        public int ZipCode
         {
             get
             {

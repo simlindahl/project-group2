@@ -5,9 +5,14 @@ using System.Text;
 
 namespace SQLHandler
 {
-    public abstract class Product
+    public class Phone : ContactInfo
     {
-        public int ID
+        public Phone()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public int PhoneNumber
         {
             get
             {
@@ -19,31 +24,7 @@ namespace SQLHandler
             }
         }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public int Price
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public int Quantity
+        public int Type
         {
             get
             {
